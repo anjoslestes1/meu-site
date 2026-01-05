@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>A.D.D – O Sol da Justiça</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1>A.D.D</h1>
+    <p class="subtitle">O Sol da Justiça</p>
+  </header>
+
+  <section class="content">
+    <h2>Bem-vindo</h2>
+    <p>
+      Este é o site oficial da A.D.D.<br>
+      Uma mensagem de fé, justiça e esperança.
+    </p>
+
+    <div class="address">
+      📍 Rua Dom Miguel de Bulhões, 87<br>
+      Jardim Noêmia
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 • A.D.D – O Sol da Justiça</p>
+  </footer>
+
+</body>
+</html>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f9d423, #ff4e50);
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.content {
+  padding: 40px 20px;
+}
+
+.content h2 {
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+
